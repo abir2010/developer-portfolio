@@ -11,6 +11,7 @@ h1{
 }
 section{
   display: flex;
+  margin-bottom: 100px;
 }
 .top-banner{
   background-image: url(tamplates-for-image/top-banner.png);
@@ -23,6 +24,9 @@ section{
 .half-width img{
   width: 80%;
 }
+.half-width p{
+  font-weight: 600;
+}
 .button{
   text-decoration: none;
   background-image:linear-gradient(rgb(226, 95, 226),salmon);
@@ -30,4 +34,9 @@ section{
   font-weight: 700;
   padding: 10px 40px;
   border-radius: 7px;
+}
+.dream-big{
+  background-image: url(tamplates-for-image/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
