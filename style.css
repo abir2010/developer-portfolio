@@ -1,9 +1,11 @@
 body{
   font-family: 'Ubuntu', sans-serif;
   margin: 0;
+  background-color: black;
 }
 h1{
   font-size: 50px;
+  color: aliceblue;
 }
 .name{
   color: rgb(226, 95, 226);
@@ -14,7 +16,7 @@ section{
   margin-bottom: 100px;
 }
 .top-banner{
-  background-image: url(tamplates-for-image/top-banner.png);
+  background-image: url(tamplates-for-image/bg-design.png);
   background-repeat: no-repeat;
 }
 .half-width{
@@ -26,6 +28,7 @@ section{
 }
 .half-width p{
   font-weight: 600;
+  color: aliceblue;
 }
 .button{
   text-decoration: none;
@@ -39,4 +42,7 @@ section{
   background-image: url(tamplates-for-image/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+h2{
+  color: aliceblue;
 }
